@@ -36,7 +36,7 @@ defmodule MixpanelDataClient.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.6"},
-      {:poison,    "~> 1.3.1"},
+      {:poison,    "~> 1.3"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, "~> 0.7", only: :dev}
     ]
